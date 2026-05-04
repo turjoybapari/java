@@ -1,0 +1,176 @@
+# ============================================
+# GENERAL / UNIMPORTANT FILES
+# ============================================
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.cache
+*.orig
+
+# ============================================
+# DEPENDENCIES / BUILD OUTPUTS
+# ============================================
+
+node_modules/
+vendor/
+bower_components/
+jspm_packages/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+out/
+target/
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+.cph
+
+# Package lock files (often auto-generated noise)
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
+Gemfile.lock
+poetry.lock
+Cargo.lock
+
+# ============================================
+# ENVIRONMENT / CONFIG TEMPLATES
+# ============================================
+
+.env
+.env.local
+.env.*.local
+*.env
+
+# But keep example env files
+!.env.example
+!.env.sample
+!.env.template
+
+# ============================================
+# FRAMEWORK SPECIFIC (auto-generated stuff)
+# ============================================
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+*.egg
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# JavaScript/TypeScript
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+coverage/
+*.tsbuildinfo
+
+# ============================================
+# COMPRESSED / ARCHIVE FILES
+# ============================================
+
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# ============================================
+# DATABASE / DATA FILES
+# ============================================
+
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+
+# ============================================
+# LARGE FILES / BINARY
+# ============================================
+
+*.psd
+*.ai
+*.sketch
+*.pdf
+*.mp4
+*.mp3
+*.wav
+*.avi
+*.mov
+*.iso
+
+# ============================================
+# CREDENTIALS (keep these safe!)
+# ============================================
+
+credentials.json
+service-account.json
+*.pem
+*.key
+*.crt
+secrets.yaml
+secrets.yml
+config.local.*
+
+# ============================================
+# DOCS / NOTES (personal)
+# ============================================
+
+notes.txt
+NOTES.md
+TODO.md
+todo.txt
+scratch/
+scratchpad.*
+
+# ============================================
+# LOGS
+# ============================================
+
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ============================================
+# CUSTOM - ADD YOUR OWN BELOW
+# ============================================
